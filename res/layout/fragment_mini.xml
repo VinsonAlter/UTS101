@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentMini" >
+
+    <TextView
+        android:id="@+id/tvanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah anda sudah Menikah?" />
+
+    <EditText
+        android:id="@+id/etanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Yes/No"
+        android:layout_below="@+id/tvanda" />
+    
+    
+    <TextView
+        android:id="@+id/tvjwb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etanda" />
+
+   <TextView
+        android:id="@+id/tvanda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah anda laki-laki?" />
+
+    <EditText
+        android:id="@+id/etanda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Yes/No"
+        android:layout_below="@+id/tvanda2" />
+    
+    
+    <TextView
+        android:id="@+id/tvjwb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etanda2" />
+    
+    <TextView
+        android:id="@+id/tvanda3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah anda anak Tunggal?" />
+
+    <EditText
+        android:id="@+id/etanda3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Yes/No"
+        android:layout_below="@+id/tvanda3" />
+    
+    
+    <TextView
+        android:id="@+id/tvjwb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etanda3" />
+    
+    <Button
+        android:id="@+id/btnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAWAB"
+        android:layout_below="@+id/tvjwb3" />
+    
+    
+
+</LinearLayout>
